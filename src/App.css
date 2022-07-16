@@ -1,0 +1,46 @@
+#root {
+	padding-top: 30px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #f1f1f1;
+}
+
+.goods-field {
+	display: flex;
+}
+
+.goods-block img {
+	max-width: 80%;
+	display: block;
+	margin: 20px auto;
+}
+
+table {
+	border: solid black 1px;
+	text-align: center;
+	border-collapse: collapse;
+	width: 500px;
+	margin: 10px;
+}
+
+td {
+	border: solid black 1px;
+	padding: 5px;
+	width: 16%;
+}
+
+table img {
+	width: 35px;
+}
+
+.dont_show {
+	display: none;
+}
+
+.show {
+	display: block;
+}
